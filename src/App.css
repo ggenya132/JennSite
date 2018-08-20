@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.hamburger-contents {
+  color: red;
+  visibility: hidden;
+  cursor: pointer;
+  list-style: none;
+}
+
+.hamburger-contents__active {
+  visibility: visible;
+}
